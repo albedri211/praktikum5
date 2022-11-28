@@ -1,4 +1,65 @@
 # praktikum5
+# Nama : Muhammad Albedri
+# NIM : 312210290
+# Kelas : TI 22 A3
+
+## Praktikum 5.1
+```python
+
+daftarKontak = {"Nama":"Nomer Telpon"}
+kontak       = {'din al':'082317751464', 'novi' : '08767777634', 'wawan' : '0877433331430'}
+
+#print
+print(30*"═")
+print("    Nama    |  Nomor Telepon  ") #prinr daftarkontak
+print(30*"-")
+print("   # Ayubi    | ", kontak['din al']) #print kontak din al
+print("   # Andi   | ", kontak['novi']) #print kontak novi
+print("   # Dapit   | ", kontak['wawan']) #print kontak wawan
+print(30*"═")
+
+#Tampilkan kontaknya din al
+print("Tampilkan kontaknya din al")
+print("    din al     | ", kontak['din al']) #print kontak din al
+print(30*"═")
+#Tambah kontak baru dengan nama Albed, nomor 081212273539
+print("Tambah kontak baru dengan nama Albed, nomor 081212273539")
+kontak['Albed'] = '081212273539'
+print("    Albed    | ", kontak['Albed'])
+print(30*"═")
+
+#Ubah kontak novi dengan nomor baru 0876780147825
+print("Ubah kontak novi dengan nomor baru 0876780147825")
+kontak['novi'] = '0876780147825'
+print("    novi    | ", kontak['novi'])
+print(30*"═")
+
+#Tampilkan semua Nama
+print("Tampilkan semua Nama")
+print(kontak.keys())
+print(30*"═")
+
+#Tampilkan semua Nomor
+print("Tampilkan semua Nomor")
+print(kontak.values())
+print(30*"═")
+
+#Tampilkan daftar Nama dan nomornya
+print("Tampilkan daftar Nama dan nomornya")
+print(kontak.items())
+print(30*"═")
+
+#MengHapus kontak wawan
+print("Hapus kontak wawan")
+kontak.pop('wawan')
+print(kontak.items())
+print(30*"═")
+```
+## Hasil Output Praktikum 5.1
+![Gambar 1](hasil/ss%20praktikum5%20(1).jpg)
+![Gambar 2](hasil/ss%20praktikum5%20(2).jpg)
+
+## Praktikum 5.2
 ```pyhton
 # -- encoding: utf-8 --
 # CODED BY MDINALAYUBI
